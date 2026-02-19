@@ -93,9 +93,9 @@ Three classification models were evaluated:
 
 ### Observations
 - Credit Distribution
-![credit_distribution](images/credit_distribution.png)
+- ![credit_distribution](images/credit_distribution.png)
 - Correlation
-![correlation_heatmap](images/correlation_heatmap.png)
+- ![correlation_heatmap](images/correlation_heatmap.png)
 - Logistic Regression achieved the highest ROC-AUC (0.72).
 - Logistic Regression also had the highest recall for Bad Risk (45%).
 - Decision Tree showed weaker discriminatory performance.
@@ -118,7 +118,7 @@ The Logistic Regression model achieved the highest ROC-AUC score (0.72), indicat
 
 A higher ROC-AUC suggests stronger ability to rank high-risk applicants above low-risk ones.
 
-(![roc](images/roc.png))
+- (![roc](images/roc.png))
 
 ---
 
@@ -141,7 +141,7 @@ Key insights from SHAP analysis:
 
 SHAP improves model transparency by clearly showing how each feature contributes to risk classification.
 
-![shap_value](images/shap_value.png)
+- ![shap_value](images/shap_value.png)
 
 ---
 
@@ -153,7 +153,7 @@ From a financial institution perspective:
 - Customers with limited liquidity show elevated default probability.
 - Larger credit exposure increases financial vulnerability.
 - Most important feature
-![](images/top10_important_feature.png)
+- ![](images/top10_important_feature.png)
 The model can support:
 
 - Risk-based loan approvals  
